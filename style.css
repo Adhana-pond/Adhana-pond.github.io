@@ -1,0 +1,15 @@
+h1{
+ font-family: Georgia, 'Times New Roman', Times, serif ;
+ color: white;
+ background-color: lightpink;
+ background-image: linear-gradient(lightpink,hsl(261, 53%, 79%));
+ font-size: 22px;
+}
+
+#myImage{
+  height: 200px;
+}
+
+body{
+  background-color: lightcyan;
+}

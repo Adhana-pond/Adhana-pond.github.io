@@ -13,3 +13,13 @@ h1{
 body{
   background-color: lightcyan;
 }
+.main-content{
+  margin-left: 80px;
+}
+.navigation{
+  height: 100%;
+  width: 80px;
+  background-color: black;
+  position: fixed;
+  top:0;
+}

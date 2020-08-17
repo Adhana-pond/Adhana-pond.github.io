@@ -6,36 +6,52 @@
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+    
   </head>
   <title>Adhana Pond</title>
-  <body>
+  <body class="body">
+    <h1 id="Welcome"></h1>
     
+    <script src="script.js"></script>
+   <div class = "container-fluid">
     
-    <div class="navigation">
-      <a href="Introduction.html">Introduction</a>
+     <div class="row">
+       <div class="col">
+
+          <p>Hey, thank you for stopping by my page. My name is Adhana and I'm glad to have you here.
+        </p>
+
+        <img onmouseover= "changePicture (1)"
+        onmouseout="changePicture(2)" alt="no image" 
+        id = "myImage">
+
+        <img onmouseover= "changePicture1 (1)"
+        onmouseout="changePicture1(2)" alt="no image" 
+        id = "myImage1" class="myImage1">
+
+        <img onmouseover= "changePicture2 (1)"
+        onmouseout="changePicture2(2)" alt="no image" 
+        id = "myImage2" class="myImage1">
+
+         <img onmouseover= "changePicture3 (1)"
+        onmouseout="changePicture3(2)" alt="no image" 
+        id = "myImage3" class="myImage1">
+
+      <h4>slide cusor left to right of pictures for a surprise</h4>
+
+      <div class="logo">
+       <img src="logo.svg" width=200px;>
+     </div>
+
+        <div class="header"> 
+      <a href="Introduction.html">Introduction</a><br>
       <a href="Future.html">Future</a>
     </div>
-    
-   <div class="main-content">
-    <div class="container-fluid">
-      <h1 id="Welcome"></h1>
-      <div class="row">
-        <div class="col">
-
-            <p>Hey, thank you for stopping by my page. My name is Adhana and I'm glad to have you here.
-          </p>
-
-          <img onmouseover= "changePicture (1)"
-      onmouseout="changePicture(2)" alt="no image" 
-      id = "myImage">
-
-        <h4>slide cusor left to right of picture for a surprise</h4>
 
 
-        </div>
-      </div>
-    </div>
+       </div>
+     </div>
    </div>
-   <script src="script.js"></script>
+   
   </body>
 </html>

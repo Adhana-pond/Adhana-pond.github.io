@@ -13,13 +13,29 @@ h1{
 body{
   background-color: lightcyan;
 }
-.main-content{
-  margin-left: 80px;
+
+.myImage1{
+  height: 200px;
+  margin-left: 20px;
 }
-.navigation{
-  height: 100%;
-  width: 80px;
-  background-color: black;
-  position: fixed;
-  top:0;
+
+.body{
+  text-align: center;
+}
+
+.header{
+  font-size: 20px;
+  text-align: center;
+}
+
+p{
+  font-size: 22px;
+}
+
+.bullets{
+  font-size: 22px;
+}
+
+.logo{
+  text-align: center;
 }
